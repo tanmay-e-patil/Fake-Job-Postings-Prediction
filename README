@@ -1,0 +1,7 @@
+create_model.py: Has functions that return a neural network model using Tensorflow.
+model_results.py: Generates the Precision,Recall,Specificity,Accuracy and F1 score for a particular model
+preprocess.py: Converts the data from a dataframe to a vector that can be used for training.
+train_model.py: Trains the model and gives the model results.
+
+There are 3 model functions in create_model.py. So, in train_model.py, if you want to train a particular model, just uncomment that function call and comment the existing one.
+By default, NN_BASE model will be trained
